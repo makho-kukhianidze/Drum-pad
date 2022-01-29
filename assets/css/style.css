@@ -1,0 +1,416 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background: #edcfcf;
+}
+h1{
+    text-align: center;
+    padding: 5px;
+    font-size: 29px;
+    color: #4863e9;
+    font-weight: 900;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    color: #cc2020;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.drumPad{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+    width: 700px;
+}
+#drum{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: rgb(255, 0, 0);
+}
+#drumTwo{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: #5ee007;
+}
+#drumThree{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: #0ac9e3;
+}
+#drumFour{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: #df1cdf;
+}
+#drumFive{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: #0da319;
+}
+#drumSix{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: #c2bf1a;
+}
+#drumSeven{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: #4e65df;
+}
+#drumEight{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: #d5a521;
+}
+#drumNine{
+    width: 200px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 2px solid rgb(197, 195, 195);
+    color: #8348ef;
+}
+#drum:active{
+    background-color: rgb(235, 114, 114);
+    border: 3px solid rgb(150, 20, 20);
+    color: rgb(207, 201, 201);
+}
+#drumTwo:active{
+    background-color: rgb(159, 207, 71);
+    border: 3px solid rgb(109, 151, 31);
+    color: rgb(207, 201, 201);
+}
+#drumThree:active{
+    background-color: rgb(71, 175, 207);
+    border: 3px solid rgb(37, 140, 172);
+    color: rgb(207, 201, 201);
+}
+#drumFour:active{
+    background-color: rgb(206, 90, 230);
+    border: 3px solid rgb(152, 47, 173);
+    color: rgb(207, 201, 201);
+}
+#drumFive:active{
+    background-color: rgb(71, 207, 105);
+    border: 3px solid rgb(35, 161, 67);
+    color: rgb(207, 201, 201);
+}
+#drumSix:active{
+    background-color: rgb(223, 220, 39);
+    border: 3px solid rgb(150, 148, 23);
+    color: rgb(207, 201, 201);
+}
+#drumSeven:active{
+    background-color: rgb(71, 96, 207);
+    border: 3px solid rgb(37, 60, 163);
+    color: rgb(207, 201, 201);
+}
+#drumEight:active{
+    background-color: rgb(241, 154, 83);
+    border: 3px solid rgb(161, 94, 39);
+    color: rgb(207, 201, 201);
+}
+#drumNine:active{
+    background-color: rgb(116, 75, 230);
+    border: 3px solid rgb(66, 28, 170);
+    color: rgb(207, 201, 201);
+}
+
+.drumPad div{
+    color: white;
+    font-size: 65px;
+    -webkit-box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 1px rgb(0, 0, 0);
+            box-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 1px rgb(0, 0, 0);
+}
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff7f7;
+    text-shadow: 1px 1px 2px black, 0 0 5px rgb(0, 0, 0), 0 0 1px rgb(0, 0, 0);
+  }
+.red{
+    background-color: rgb(107, 7, 7);
+}
+.a_key{
+    background-color: rgb(199, 37, 37);
+}
+.green{
+    background-color: rgb(7, 107, 20);
+}
+.s_key{
+    background-color: rgb(88, 189, 20);
+}
+.blue{
+    background-color: rgb(7, 100, 107);
+}
+.d_key{
+    background-color: rgb(18, 175, 196);
+}
+
+
+.pink{
+    background-color: rgb(107, 7, 107);
+}
+.f_key{
+    background-color: rgb(223, 28, 223);
+}
+.greenDark{
+    background-color: rgb(4, 124, 34);
+}
+.g_key{
+    background-color: rgb(13, 163, 25);
+}
+.greenDark{
+    background-color: rgb(4, 124, 34);
+}
+.g_key{
+    background-color: rgb(13, 163, 25);
+}
+.yellow{
+    background-color: rgb(131, 143, 21);
+}
+.h_key{
+    background-color: rgb(194, 191, 26);
+}
+.blueDark{
+    background-color: rgb(35, 55, 145);
+}
+.j_key{
+    background-color: rgb(50, 68, 165);
+}
+.brown{
+    background-color: rgb(139, 127, 10);
+}
+.k_key{
+    background-color: rgb(197, 151, 24);
+}
+.purle{
+    background-color: rgb(100, 50, 167);
+}
+.l_key{
+    background-color: rgb(113, 58, 214);
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        padding: 3px;
+        font-size: 25px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .drumPad{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: 0 auto;
+        width: auto;
+    }    
+    #drum{
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    #drumTwo{
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    #drumThree{
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    #drumFour{
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    #drumFive{
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    #drumSix{
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    #drumSeven{
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    #drumEight{
+        width: 120px;
+        height: 90px;
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    #drumNine{
+        width: 248px;
+        height: 90px;
+        border-radius: 6%;
+        font-size: 50px;
+    }
+  }
